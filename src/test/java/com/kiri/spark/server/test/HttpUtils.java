@@ -1,4 +1,4 @@
-package com.pingan.spark.server.test;
+package com.kiri.spark.server.test;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.http.client.methods.CloseableHttpResponse;

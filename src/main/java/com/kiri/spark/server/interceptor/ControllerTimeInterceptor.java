@@ -1,4 +1,4 @@
-package com.pingan.spark.server.interceptor;
+package com.kiri.spark.server.interceptor;
 
 import org.apache.commons.lang.time.StopWatch;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -14,7 +14,7 @@ public class ControllerTimeInterceptor {
 
 	private static final Logger logger = LoggerFactory.getLogger(ControllerTimeInterceptor.class);
 
-	@Around("execution (* com.pingan.spark.server.controller.*Controller.*(..)) and @annotation(org.springframework.web.bind.annotation.RequestMapping)")
+	@Around("execution (* com.kiri.spark.server.controller.*Controller.*(..)) and @annotation(org.springframework.web.bind.annotation.RequestMapping)")
 	public Object intercept(ProceedingJoinPoint pjp) throws Throwable {
 		Object result = null;
 		StopWatch clock = new StopWatch();

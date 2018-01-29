@@ -1,4 +1,4 @@
-package com.pingan.spark.server;
+package com.kiri.spark.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

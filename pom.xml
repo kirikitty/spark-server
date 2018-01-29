@@ -2,13 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.pingan.spark</groupId>
+	<groupId>com.kiri.spark</groupId>
 	<artifactId>spark-server</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
 
 	<name>spark-server</name>
-	<url>http://maven.apache.org</url>
 
 	<properties>
 		<spark.version>2.2.1</spark.version>

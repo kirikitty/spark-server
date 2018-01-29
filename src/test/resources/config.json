@@ -1,5 +1,5 @@
 {
 	"spark.home":"/opt/spark-2.2.1-bin-hadoop2.7",
-	"spark.appJar":"/var/spark/jars/luna-spark-full-1.0.0.jar",
+	"spark.appJar":"/var/spark/jars/spark-apps-full-1.0.0.jar",
 	"spark.master":"local[4]"
 }

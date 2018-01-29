@@ -1,4 +1,4 @@
-package com.pingan.spark.server.utils;
+package com.kiri.spark.server.utils;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

@@ -1,4 +1,4 @@
-package com.pingan.spark.server.test;
+package com.kiri.spark.server.test;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
@@ -21,7 +21,7 @@ public class TestServer {
 		
 		Map<String, Object> config = new HashMap<>();
 		config.put("username", "kiri");
-		config.put("labels", Arrays.asList("RiskPerson", "RiskWifi"));
+		config.put("labels", Arrays.asList("TestPerson", "TestWifi"));
 		String resp = HttpUtils.postJson(url, JSON.toJSONString(config));
 		logger.info("write: {}", resp);
 		
@@ -35,7 +35,7 @@ public class TestServer {
 		
 		Map<String, Object> params = new HashMap<>();
 		params.put("master", "spark://127.0.0.1:7077");
-		params.put("mainClass", "com.pingan.spark.luna.SimpleApp");
+		params.put("mainClass", "com.kiri.spark.apps.SimpleApp");
 		String resp = HttpUtils.postJson(url, JSON.toJSONString(params));
 		logger.info("submit: {}", resp);
 	}

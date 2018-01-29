@@ -1,4 +1,4 @@
-package com.pingan.spark.server.model;
+package com.kiri.spark.server.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;

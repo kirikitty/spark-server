@@ -1,4 +1,4 @@
-package com.pingan.spark.server.controller;
+package com.kiri.spark.server.controller;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.pingan.spark.server.model.Response;
-import com.pingan.spark.server.utils.ConfigUtils;
+import com.kiri.spark.server.model.Response;
+import com.kiri.spark.server.utils.ConfigUtils;
 
 @RestController
 public class SparkController {
