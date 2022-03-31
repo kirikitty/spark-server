@@ -11,7 +11,7 @@
 
 	<properties>
 		<spark.version>2.3.3</spark.version>
-		<spring.version>1.5.9.RELEASE</spring.version>
+		<spring.version>2.5.12</spring.version>
 	</properties>
 
 	<build>
